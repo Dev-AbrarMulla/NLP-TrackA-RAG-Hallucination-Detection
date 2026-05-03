@@ -79,6 +79,8 @@ pip install -r requirements.txt
 ```
 
 All required packages:
+
+```
 torch>=2.0.0
 transformers>=4.35.0
 sentence-transformers>=2.2.0
@@ -91,6 +93,7 @@ matplotlib>=3.7.0
 huggingface-hub>=0.19.0
 accelerate>=0.24.0
 bitsandbytes>=0.41.0
+```
 
 ### Step 3 — HuggingFace Login
 Mistral-7B-v0.1 requires a HuggingFace account with model access.
