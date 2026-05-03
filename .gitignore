@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Model cache (too large for GitHub)
+*.bin
+*.safetensors
+models/
+
+# Colab specific
+.ipynb_checkpoints/
+drive/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Environment
+.env
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
