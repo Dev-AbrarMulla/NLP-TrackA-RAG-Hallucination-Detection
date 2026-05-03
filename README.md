@@ -42,24 +42,22 @@ Weights and directions are derived from 500 RAGTruth train samples and frozen fo
 | HaluEval zero-shot | **0.8579** | 500 |
 | SOTA gap closed | **36.6%** | — |
 
----
-
 ## Repository Structure
+
+```
 NLP-TrackA-RAG-Hallucination-Detection/
-│
-├── demo.py                              # Main demo script — run this
-├── README.md                            # This file
-├── requirements.txt                     # All dependencies
-├── Track_A_NLP_Assignment_Final.ipynb   # Full experiment notebook
-│
+├── demo.py
+├── README.md
+├── requirements.txt
+├── Track_A_NLP_Assignment_Final.ipynb
 └── results/
-├── results_train_500.json           # Train pipeline metric scores
-├── results_test_1000.json           # Test pipeline metric scores
-├── halu_results.json                # HaluEval zero-shot scores
-├── train_calibration.json           # Frozen directions + weights
-├── df_test_scored.json              # Scored test dataframe
-└── exp3_temporal_precedence.png     # Experiment 3 line plot
----
+    ├── results_train_500.json
+    ├── results_test_1000.json
+    ├── halu_results.json
+    ├── train_calibration.json
+    ├── df_test_scored.json
+    └── exp3_temporal_precedence.png
+```
 
 ## Setup
 
