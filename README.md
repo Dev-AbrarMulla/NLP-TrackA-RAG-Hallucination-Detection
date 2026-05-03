@@ -35,8 +35,8 @@ The difference between these distributions measures how much the model uses the 
 
 ### Installation
 ```bash
-git clone https://github.com/[your-repo-url]
-cd [repo-name]
+git clone https://github.com/Dev-AbrarMulla/NLP-TrackA-RAG-Hallucination-Detection
+cd cd NLP-TrackA-RAG-Hallucination-Detection
 pip install -r requirements.txt
 ```
 
