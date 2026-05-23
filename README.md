@@ -14,6 +14,7 @@
 | Sarvagya Jain | 2023A7PS0318U |
 
 ---
+A hallucination detection framework for Retrieval-Augmented Generation (RAG) systems using token-level information gain, KL divergence, confidence dynamics, and semantic entropy computed from dual-pass Mistral-7B inference.
 
 ## Method Overview
 
@@ -99,7 +100,7 @@ bitsandbytes>=0.41.0
 Mistral-7B-v0.1 requires a HuggingFace account with model access.
 
 ```bash
-huggingface-cli login
+hf auth login
 ```
 
 Enter your HuggingFace token when prompted. Your token needs read access to `mistralai/Mistral-7B-v0.1`. You can generate a token at (https://huggingface.co/settings/tokens).
@@ -157,6 +158,13 @@ Pre-computed results are available in `results/` — load them to skip the pipel
 | HaluEval | 500 | A100 | ~3 hours |
 
 ---
+
+### Windows Notes
+bitsandbytes may not work natively on Windows.
+Recommended:
+- Google Colab
+- WSL2 Ubuntu
+- Linux environment
 
 ## Academic Integrity
 
